@@ -1,0 +1,110 @@
+body {
+    background-color: #E9EBEB;
+}
+
+/* Center the heading */
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Container for the entire content */
+.content-container {
+    background-color: #E9EBEB; /* Light gray background color */
+    margin: 50px auto;
+    padding: 20px; /* Add padding for better visibility */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+    max-width: 600px;
+}
+
+/* Center the image and add margins and padding */
+.image-space {
+    text-align: center;
+    margin: 20px auto; /* Center the image and add margin */
+    padding: 20px; /* Add padding for better visibility */
+}
+
+/* Paragraph field */
+.paragraph-field {
+  
+    padding: 0 20px;
+    text-align: center;
+}
+.get-started-button {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--bold-pink, #EC407A);
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Navigation buttons container */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+    .content-container {
+        border: none; /* Remove border */
+        box-shadow: none; /* Remove shadow */
+        padding: 0; /* Remove padding in mobile view */
+    }
+    .heading h1 {
+        font-size: 30px; /* Adjust heading font size */
+        
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh; /* Distribute height outside the container */
+    }
+
+}
+/* Responsive adjustments for screen size 576px */
+@media (max-width: 576px)
+{
+.content-container {
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+    padding: 0; /* Remove padding in mobile view */
+}
+.heading h1 {
+    font-size: 24px; /* Adjust heading font size */
+    margin-top: 40px;
+   
+}
+.image-space {
+    margin: 10px auto; /* Decrease margin for the image */
+    margin-top: 40px;
+  
+}
+.paragraph-field
+{
+    padding: 0px 0px;
+    margin-top: 40px;
+}
+.get-started-button {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+}
+.nav-buttons
+{
+    margin-top: 70px;
+}
+}
